@@ -11,7 +11,7 @@ class Photato extends React.Component {
   render() {
     return (
 			<div className="col-6 col-sm-4 col-md-3 col-lg-3 my-2">
-			<img src={this.props.src} style={this.styling} className="img-thumbnail img img-responsive full-width" alt={this.props.alt} id={this.props.id}/>
+			<img src={this.props.src} style={this.styling} className="img-thumbnail img img-responsive full-width" alt={this.props.alt} id={this.props.id} onClick={this.props.clicky}/>
 			</div>);
   }
 }
